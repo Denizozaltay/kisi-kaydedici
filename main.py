@@ -8,8 +8,9 @@ if not os.path.exists("Kişiler.xlsx"):
 df = pd.read_excel("Kişiler.xlsx")
 
 while True:
-    secim = input("add, clear yada exit yazınız: ")
-
+    print('Excele isim eklemek için "add" exceli temizlemek için "clear" programdan çıkış yapmak istiyorsanız "exit" yazınız :')
+    secim = input("Ne yapmak istersiniz lütfen seçiniz: ")
+inp
     if secim.lower() == "add":
         isim = input("İsim: ")
         soyisim = input("Soyisim: ")
@@ -27,4 +28,4 @@ while True:
     elif secim.lower() == "exit":
         break
     else:
-        print("Geçersiz seçim")
+        print("Geçersiz seçim lütfen tekrar seçiniz")
