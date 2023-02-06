@@ -10,7 +10,7 @@ df = pd.read_excel("Kişiler.xlsx")
 while True:
     print('Excele isim eklemek için "add" exceli temizlemek için "clear" programdan çıkış yapmak istiyorsanız "exit" yazınız :')
     secim = input("Ne yapmak istersiniz lütfen seçiniz: ")
-inp
+    
     if secim.lower() == "add":
         isim = input("İsim: ")
         soyisim = input("Soyisim: ")
